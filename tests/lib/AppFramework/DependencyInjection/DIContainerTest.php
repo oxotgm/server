@@ -54,16 +54,9 @@ class DIContainerTest extends \Test\TestCase {
 		$this->assertTrue(isset($this->container['Request']));
 	}
 
-
-	public function testProvidesSecurityMiddleware(){
-		$this->assertTrue(isset($this->container['SecurityMiddleware']));
-	}
-
-
 	public function testProvidesMiddlewareDispatcher(){
 		$this->assertTrue(isset($this->container['MiddlewareDispatcher']));
 	}
-
 
 	public function testProvidesAppName(){
 		$this->assertTrue(isset($this->container['AppName']));
