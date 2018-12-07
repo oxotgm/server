@@ -69,6 +69,10 @@ OC.L10N.register(
     "Google Chrome" : "Google Chrome",
     "Safari" : "Safari",
     "Google Chrome for Android" : "Google Chrome Android-laitteelle",
+    "iPhone" : "iPhone",
+    "iPad" : "iPad",
+    "Nextcloud iOS app" : "Nextcloudin iOS-sovellus",
+    "Nextcloud Android app" : "Nextcloudin Android-sovellus",
     "Sync client - {os}" : "Synkronointisovellus - {os}",
     "This session" : "Tämä istunto",
     "Copy" : "Kopioi",
@@ -351,7 +355,6 @@ OC.L10N.register(
     "iPad iOS" : "iPad iOS",
     "iOS Client" : "iOS-sovellus",
     "Android Client" : "Android-sovellus",
-    "An error occured while changing your language. Please reload the page and try again." : "Kieltä vaihtaessa tapahtui virhe. Lataa sivu uudelleen ja yritä uudelleen.",
     "Unable to delete {objName}" : "Kohteen {objName} poistaminen epäonnistui",
     "Error creating group: {message}" : "Virhe ryhmää luotaessa: {message}",
     "A valid group name must be provided" : "Anna kelvollinen ryhmän nimi",
@@ -359,6 +362,7 @@ OC.L10N.register(
     "undo" : "kumoa",
     "never" : "ei koskaan",
     "deleted {userName}" : "poistettu {userName}",
+    "No user found for <strong>{pattern}</strong>" : "Haulla <strong>{pattern}</strong> ei löytynyt käyttäjiä",
     "Unable to add user to group {group}" : "Käyttäjän lisääminen ryhmään {group} ei onnistunut",
     "Unable to remove user from group {group}" : "Käyttäjän poistaminen ryhmästä {group} ei onnistunut",
     "Invalid quota value \"{val}\"" : "Virheellinen kiintiön arvo \"{val}\"",
@@ -415,7 +419,6 @@ OC.L10N.register(
     "set new password" : "aseta uusi salasana",
     "change email address" : "vaihda sähköpostiosoite",
     "Default" : "Oletus",
-    "Default quota :" : "Oletuskiintiö:",
-    "An error occured while changing your locale. Please reload the page and try again." : "Maa-asetustoa vaihtaessa tapahtui virhe. Päivitä sivu ja yritä uudelleen."
+    "Default quota :" : "Oletuskiintiö:"
 },
 "nplurals=2; plural=(n != 1);");
